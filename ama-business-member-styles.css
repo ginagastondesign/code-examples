@@ -1,0 +1,428 @@
+/*2021 New Styles*/
+
+div#main {padding-top: 0em!important;}
+
+#featured-title {
+    background: none !important; 
+    padding-left: 3em !important;
+    border-bottom: 2px solid #005DA8;
+}
+
+@media(max-width: 723px) {
+div.featured-image  {
+	display: flex !important;
+	height: 350px;
+	margin: 1em auto !important;
+	width: 100%;
+	}
+}
+
+@media(max-width: 500px) {
+div.featured-image  {
+		height: 200px;
+
+	}
+}
+
+p#breadcrumbs{display: none;}
+
+
+.cat-icons {
+	display: none;
+}
+
+.featured-image {
+    height: 350px;
+}
+
+@media(max-width: 723px) {
+    div.featured-image {
+        height: 200px;
+    }
+}
+
+/* Typography */
+
+.dark_h1 {
+    color: black !important;
+    text-shadow: none !important;
+    font-family: roboto-condensed, sans-serif;
+	font-weight: 400 !important;
+	text-transform: uppercase;
+	letter-spacing: .065rem;
+    display: inline-block;
+    max-width: 25ch;
+}
+
+h2.new-h2 {
+    font-weight: 100 !important;
+    padding-bottom: .5rem;
+    text-transform: capitalize;
+}
+
+#featured-title .new_h2 {
+    text-transform: capitalize;
+    }
+
+h2.new-h2:after {
+    content: '';
+    border-bottom: 2px solid #C4C4C4;
+    width: 115%;
+    padding-top: .5rem;
+
+}
+
+.new_h2.underline_h2:after {
+	content:'';
+	border-bottom: 1px solid #C4C4C4;
+	display: flex;
+	max-width: 45ch;
+	margin-top: .5rem;
+}
+
+h3.new-h3.cond-h3 {
+    font-family: roboto-condensed, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.35rem;
+    letter-spacing: .05rem;
+    transition: all .5s;
+    text-decoration: none;
+    transition: opacity 1s;
+    margin-bottom: -.15rem;
+
+}
+
+h3.new-h3.cond-h3:hover {
+    opacity: .75;
+    }
+
+    ul.new-ul {
+        font-family: roboto-condensed, sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: .15rem;
+        padding-bottom: 1.5rem;
+        color: #808080;
+        font-size: .85rem;
+list-style: disc;
+    }
+    
+    ul.new-ul li::marker {
+        color: #005da8 !important;
+        font-size: 1.5rem;
+    }
+    
+    .page-template-enews-subscription-page p a:hover {
+        opacity: .85;
+    }
+    
+    .page-template-enews-subscription-page h4 {
+        font-family: roboto-condensed, sans-serif;
+        color: #6D6D6D;
+        text-transform: uppercase;
+        letter-spacing: .05rem;
+        font-size: 1rem;
+    }
+    
+    .page-template-enews-subscription-page h3 {
+        font-family: roboto-condensed, sans-serif;
+        text-transform: uppercase;
+        font-size: 1.25em;
+        letter-spacing: .05rem;
+        color: #6D6D6D;
+    
+    
+    }
+    
+/*Buttons*/
+a.maxbutton-22.maxbutton.maxbutton-2021-join-the-ama.external-css {
+    font-family: roboto-condensed, sans-serif;
+    border: 1px solid #005da8;
+    padding: .5rem 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .015rem;
+    transition: opacity .5s, box-shadow .5s;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: #005da8;
+    color: white;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+a.maxbutton-22.maxbutton.maxbutton-2021-join-the-ama.external-css:hover{
+    opacity: .85;
+    box-shadow: -3px 3px 15px #9a9a9a;
+}
+
+a.maxbutton-21.maxbutton.maxbutton-2021-renew-membership.external-css {
+
+    font-family: roboto-condensed, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .015rem;
+    color: black;
+    text-decoration: underline;
+    transition: color .5s;
+
+}
+a.maxbutton-21.maxbutton.maxbutton-2021-renew-membership.external-css:hover {
+
+   color: #005da8;
+
+}
+
+.ama_link {
+    margin-top: 2rem;
+}
+
+.cta-buttons {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+}
+
+@media(max-width: 723px) {
+    .mobile-order {
+        display: none;
+    }
+}
+
+
+@media(max-width:1200px) {
+
+.dark_h1 a {
+max-width: 20ch;
+}
+}
+
+@media(max-width:723px) {
+
+.dark_h1 a {
+max-width: 45ch;
+}
+}
+
+@media(max-width: 723px) {
+	div.featured-image {
+  height: 250px !important;
+	}
+}
+
+@media(max-width: 723px) {
+	#featured-title .new_h2 {
+		max-width: 30ch;
+		margin-top: -.5rem;
+	}
+}
+
+/* Repeater Container */
+
+.member-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    text-align: center;
+  }
+  
+.repeater-item {
+        height: auto;
+    margin: .5em 1em;
+    padding: 2rem 0 0rem;
+        max-width: 15em;
+}
+
+@media(max-width: 50em) {
+    .repeater-item {
+        flex: 0 100%;
+	}
+}
+
+.member_container {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: center;
+  }
+
+h2.new_h2.underline_h2, h2.new_h2.underline_h2:after {
+
+    max-width: 45ch;
+
+}
+
+.intro_txt {
+  margin-bottom: 2rem;
+  max-width: 90ch;
+}
+
+#content > :first-child {
+margin-top: 1rem;
+}
+
+/* AMA Business Member Listing Page Styles */
+
+/* Intro Paragraph */
+
+.intro-paragraph {
+  position: relative;
+  display: flex;
+  max-width: 85ch;
+  justify-content: center;
+  margin: 1em auto;
+  padding: 2em 1em;
+}
+
+.intro-paragraph:before {
+	border-top: 8px solid #EDEDED;
+	border-left: 8px solid #EDEDED;
+	content: "";
+	height: 15ch;
+  top: -2vw;
+  left: -2vw;
+	position: absolute;
+	width: 15ch;
+	z-index: 0;
+  margin: 1rem 0;
+  padding: 1rem;
+
+}
+
+@media(max-width: 50em) {
+  .intro-paragraph{
+  max-width: 100%;
+  }
+}
+
+@media(max-width: 50em) {
+  .intro-paragraph:before{
+    display: none;
+    
+  }
+}
+
+@media(max-width: 50em) {
+  .intro-paragraph:after{
+	border-bottom: 8px solid #EDEDED;
+	border-right: 8px solid #EDEDED;
+	content: "";
+	height: 15ch;
+    bottom: -2vw;
+    right: -2vw;
+	position: absolute;
+	width: 15ch;
+    z-index: 0;
+  margin: 1rem .5rem;
+  padding: 1rem;
+  }
+}
+
+/* Typography */
+
+h2.category-heading {
+  color: #444444;
+  font-family: roboto-condensed, sans-serif;
+  font-weight: 100 !important;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  margin-bottom: 1rem;
+}
+
+h2.category-heading:after {
+content: '';
+border-bottom: 1px solid #C4C4C4;
+display: flex;
+max-width: 45ch;
+margin-top: .5rem;
+}
+
+.member-info h4 {
+    color: #FF0000;
+    font-family: roboto-condensed, sans-serif;
+    font-size: 1em;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    padding-bottom: .5em;
+}
+
+.member-info h3 {
+font-family: roboto-condensed, sans-serif;
+text-transform: uppercase;
+font-size: 1.25em;
+letter-spacing: .05rem;
+color: #005DA8;
+font-weight: 100 !important;
+}
+
+/*Images*/
+
+.member_col-b img {
+
+    box-shadow: 3px -3px 25px #0000003d;    
+}
+
+.repeater-item img {
+    max-width: 10em;
+    max-height: 10em;
+}
+
+
+.entry-content.clearfix {
+  display: none;
+}
+
+
+.member-benefits_box {
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.maxbutton-22.maxbutton.maxbutton-2021-join-the-ama.external-css {
+
+    border: 1px solid white;
+}
+
+.member-benefits_box > * {
+    flex: 0 1 50%;
+    padding: 1em 2em;
+}
+
+.member-benefits_b img {
+box-shadow: 3px -3px 25px #0000003d;
+}
+
+@media(max-width:50em) {
+    .member-benefits_box {
+        flex-direction: column-reverse;
+
+    }
+}
+
+@media(max-width: 45em) { 
+.cta_box {
+
+    margin: 0 !important;
+    width: 100%;
+
+}
+
+}
+
+@media(max-width: 45em) { 
+ #featured-title {
+background: linear-gradient(to left, #ffffffa3 15%, #ffffff6b 50%) !important;
+height: 250px;
+
+}
+}
+
+@media(max-width:45em) {
+
+ body   div.featured-image {
+    margin: 0 !important;
+}
+}

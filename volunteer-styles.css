@@ -1,0 +1,68 @@
+.volunteer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    margin-left: -2rem;
+}
+
+@media(max-width:723px) {
+    .volunteer-grid {
+     grid-template-columns: 1fr;
+    }
+}
+
+.grid-section {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+@media(max-width:723px) {
+    .grid-section{
+      padding: 1rem;
+      margin: 1rem;
+    }
+}
+
+.grid-section h4 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem !important;
+    font-size: 1.15rem;
+    letter-spacing: .025rem;
+    display: inline-grid;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.grid-section h4:after {
+    content: '';
+    border-bottom: 2px solid #C4C4C4;
+    width: 115%;
+    padding-top: .5rem;
+}
+
+
+/*Typography*/
+
+
+.new-h2 {
+  max-width: 40ch;
+  margin-bottom: .85rem;
+}
+
+.new-h3 {
+  /*! max-width: 40ch; */
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+/*Jotform Styles*/
+
+html.supernova {
+    background-color: white;
+}
+
+div#ama-form {
+padding-bottom: 3rem;
+margin-top: 3rem;
+}
